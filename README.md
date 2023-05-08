@@ -1,10 +1,16 @@
 # bentech annotation parser
+Simple Python API to read the annotation data of the Kaggle/Benetech-Making Graphs Accessible competition. Kaggle/Benetech-Making Graphs Accessible competition. For more details on the Kaggle/Benetech - Making Graphs Accessible competition, please refer to the following:[https://www.kaggle.com/competitions/benetech-making-graphs-accessible](https://www.kaggle.com/competitions/benetech-making-graphs-accessible).
 
 # Installing
+
+```bash
+pip install benetech-annotation-parser
+```
 
 # Example
 
 ```python
+from benetech_annotation_parser.annotation_api import AnnotationParser, Axis 
 annotation_parser = AnnotationParser("mock/dummy_data")
 
 # (0) "Extract one JSON data from a list of JSON file paths."

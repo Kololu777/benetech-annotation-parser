@@ -1,5 +1,5 @@
 # bentech annotation parser
-Simple Python API to read the annotation data of the Kaggle/Benetech-Making Graphs Accessible competition. Kaggle/Benetech-Making Graphs Accessible competition. For more details on the Kaggle/Benetech - Making Graphs Accessible competition, please refer to the following:[https://www.kaggle.com/competitions/benetech-making-graphs-accessible](https://www.kaggle.com/competitions/benetech-making-graphs-accessible).
+Simple Python API to read the annotation data of the Kaggle/Benetech-Making Graphs Accessible competition. For more details on the Kaggle/Benetech-Making Graphs Accessible competition, please refer to the following:[https://www.kaggle.com/competitions/benetech-making-graphs-accessible](https://www.kaggle.com/competitions/benetech-making-graphs-accessible).
 
 # Installing
 

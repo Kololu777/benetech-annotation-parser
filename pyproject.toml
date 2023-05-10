@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "benetech-annotaion-parser"
-description = "benetech annotaion parser"
+name = "benetech-annotation-parser"
+description = "benetech annotation parser"
 readme = "README.md"
 License = "MIT"
 requires-python = ">=3.7"
@@ -21,7 +21,7 @@ dependencies = ["pillow"]
 dynamic = ["version"]
 
 [project.urls]
-"Homepage" = "https://github.com/Kololu777/benetech-annotaion-parser"
+"Homepage" = "https://github.com/Kololu777/benetech-annotation-parser"
 
 [project.optional-dependencies]
 dev = [

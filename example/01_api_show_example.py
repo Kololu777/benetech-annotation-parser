@@ -1,4 +1,4 @@
-from src.benetech_annotation_parser.annotation_api import AnnotationParser, Axis
+from benetech_annotation_parser.annotation_api import AnnotationParser, Axis
 
 annotation_parser = AnnotationParser("mock/dummy_data")
 

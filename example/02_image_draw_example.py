@@ -2,7 +2,7 @@ import os
 from typing import Dict
 from PIL import Image, ImageDraw
 
-from src.benetech_annotation_parser.annotation_api import AnnotationParser, Axis
+from benetech_annotation_parser.annotation_api import AnnotationParser, Axis
 
 def draw_rect_angle(img:Image.Image, rectangle_coord:Dict[str, int]):
     x0 = rectangle_coord['x0']
@@ -35,7 +35,7 @@ def draw_point(img:Image.Image, coord:Dict[str, int]):
     
 if __name__ == "__main__":
     # bentech data path (i.e. /mnt/data/train/)
-    # The demo is available on a Kaggle notebook(link). 
+    # The demo is available on a Kaggle notebook(https://www.kaggle.com/koyyy0/benetech-annotation-parser/). 
     # Please refer to the Kaggle notebook for more details.
     data_path = 'mock/dummy_data'
     index = 0

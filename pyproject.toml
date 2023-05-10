@@ -20,6 +20,8 @@ classifiers = [
 dependencies = ["pillow"]
 dynamic = ["version"]
 
+[project.urls]
+"Homepage" = "https://github.com/Kololu777/benetech-annotaion-parser"
 
 [project.optional-dependencies]
 dev = [

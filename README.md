@@ -164,4 +164,4 @@ print(p.data_series(filter="y"))
 ```
 
 # Demo
-The demo is available on a Kaggle notebook[(link)](url). Please refer to the Kaggle notebook for more details.
+The demo is available on a Kaggle notebook[https://www.kaggle.com/koyyy0/benetech-annotation-parser/](https://www.kaggle.com/koyyy0/benetech-annotation-parser/). Please refer to the Kaggle notebook for more details.

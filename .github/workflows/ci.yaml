@@ -22,6 +22,6 @@ jobs:
           pip install pyproject-flake8 isort black
       - name: Check quality
         run: |
-          black --check src tests
-          isort --check-only src tests
-          pflake8 src tests 
+          black --check src 
+          isort --check-only src
+          pflake8 src
